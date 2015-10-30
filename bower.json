@@ -1,9 +1,10 @@
 {
-  "name": "backbone-bootstrap-modals",
-  "version": "0.1.4",
-  "homepage": "https://github.com/leafygreen/backbone-bootstrap-modals",
+  "name": "backbone-bootstrap-modals-ext",
+  "version": "0.1.5",
+  "homepage": "https://github.com/ducin/backbone-bootstrap-modals-ext",
   "authors": [
-    "Dennis Kuczynski <dennis.kuczynski@gmail.com>"
+    "Dennis Kuczynski <dennis.kuczynski@gmail.com>",
+    "Tomasz Ducin <tomasz.ducin@gmail.com>"
   ],
   "description": "Set of extendable Backbone Views for working with Bootstrap Modal Dialogs",
   "main": [

@@ -1,6 +1,6 @@
 {
-  "name": "backbone-bootstrap-modals",
-  "version": "0.1.4",
+  "name": "backbone-bootstrap-modals-ext",
+  "version": "0.1.5",
   "description": "Set of extendable Backbone Views for working with Bootstrap Modal Dialogs",
   "keywords": [
     "backbone",
@@ -8,12 +8,12 @@
     "modal"
   ],
   "bugs": {
-    "url" : "http://github.com/leafygreen/backbone-bootstrap-modals/issues"
+    "url" : "http://github.com/ducin/backbone-bootstrap-modals-ext/issues"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/leafygreen/backbone-bootstrap-modals"
+    "url": "http://github.com/ducin/backbone-bootstrap-modals-ext"
   },
   "main": "lib/backbone-bootstrap-modals.js",
   "devDependencies": {
