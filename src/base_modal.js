@@ -33,6 +33,7 @@ BackboneBootstrapModals.BaseModal = Backbone.View.extend({
   // properties to copy from options
   modalProperties: [
     'modalOptions',
+    'animate',
     'headerView',
     'headerViewOptions',
     'bodyView',
@@ -59,6 +60,10 @@ BackboneBootstrapModals.BaseModal = Backbone.View.extend({
       '</div>',
       '</div>'
     ].join(''));
+
+    if (this.animate) {
+        this.$el.addClass('fade');
+    }
 
     var $modalContent = this.$el.find('.modal-content');
 

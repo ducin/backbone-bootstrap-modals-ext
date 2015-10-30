@@ -56,6 +56,7 @@ Please click the following links to see the library in action:
 ```javascript
 // Extending BaseModal
 var ExtendedModal = BackboneBootstrapModals.BaseModal.extend({
+  animate: true,
   headerView: BackboneBootstrapModals.BaseHeaderView,
   headerViewOptions: {
     label: 'Extended Example'
