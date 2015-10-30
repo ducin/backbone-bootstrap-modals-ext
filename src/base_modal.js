@@ -1,3 +1,5 @@
+/* global Backbone, BackboneBootstrapModals */
+
 // BaseModal
 // ---------------------------------
 //
@@ -213,6 +215,6 @@ BackboneBootstrapModals.BaseModal = Backbone.View.extend({
     this.shown = false;
     this.remove();
     if (this.onHidden) { this.onHidden.call(this); }
-  },
+  }
 
 });
